@@ -1,22 +1,4 @@
-#  let arr=[];
-#     arr.push(0,1);
-#     if(n==0){
-#         arr=[0];
-#     }else if(n==1){
-#         arr=[0,1]
-#     }else{
-#         while (arr[arr.length-1]<n){
-#             arr.push(arr[arr.length-2]+arr[arr.length-1])
-#         }
-#         if(arr[arr.length-1]>=n){
-#             arr.pop();
-#         }
-#     }
-    
-    
-#     return arr[arr.length-1] ;
-   
-# }
+
 
 def fibonacci(n):
     
